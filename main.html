@@ -1,0 +1,222 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>SureFire System for Tunnel</title>
+<link href="screen.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/echarts.min.js" charset="utf-8"></script>
+
+
+<body>
+  <div class="wpbox">
+    <div class="bnt">
+      <div class="topbnt_left fl">
+        <ul>
+
+        </ul>
+      </div>
+      <h1 class="tith1 fl">SFDT System</h1>
+      <div class=" fr topbnt_right">
+        <ul>
+
+        </ul>
+
+      </div>
+    </div>
+
+
+
+    
+
+    
+    <div class="mrbox">
+      <div class="mrbox_topmidd" style="width: 69%;">
+        <div class="amiddboxttop">
+          <h2 class="tith2 pt2">SCFRI Tunnel Digital Twin</h2>
+          <div class="amiddboxttop_map">
+            <iframe id="container" src='DT.html'  frameborder="no" style="margin-bottom:-5px;width:100%;height:100%;" ></iframe>
+          </div>
+        </div>
+        
+
+        
+      </div>
+      
+      <div class="mr_right fl">
+        <div class="purightboxtop">
+          <h2 class="tith3 pt12">Critical Event Alarm</h2>
+          <div class="lefttoday_tit"></div>
+          <div id="purightboxtop" class="purightboxtopcont"></div>
+        </div>
+        <div class="purightboxmidd">
+          <h2 class="tith3 pt12">Temperature History</h2>
+          <div class="lefttoday_tit"></div>
+          <div id="purightboxmidd" class="purightboxmiddcont"></div>
+        </div>
+        <div class="purightboxbott">
+          <h2 class="tith3 pt12">On-site Connection</h2>
+          <div class="lefttoday_tit">
+            <p class="fl">
+          </div>
+          <div id="purightboxbott" class="purightboxbottcont"></div>
+        </div>
+      </div>
+      
+    </div>
+
+  </div>
+
+  
+  <script type="text/javascript">
+    var myChart = echarts.init(document.getElementById('purightboxtop'));
+    option = {
+      tooltip: { show: true },
+      color: ['#76c4bf', '#e5ffc7', '#508097', '#4d72d9'],
+      backgroundColor: 'rgba(1,202,217,.2)',
+      grid: {
+        left: 10,
+        right: 40,
+        top: 0,
+        bottom: 0,
+        containLabel: true
+      },
+      calculable: true,
+      series: [
+
+        {
+          name: 'Dangerous',
+          type: 'pie',
+          radius: [10, 70],
+          center: ['50%', '50%'],
+          roseType: 'area',
+          data: [
+            { value: 15, name: 'Temperature' },
+            { value: 5, name: 'HRR' },
+            { value: 5, name: 'Visibility' },
+            { value: 5, name: 'Radiation' },
+            { value: 20, name: 'CO' },
+            { value: 5, name: 'CO2' },
+            { value: 5, name: 'Explosion'}
+
+          ]
+        }
+      ]
+    };
+    myChart.setOption(option);
+  </script>
+  <script type="text/javascript">
+    var myChart = echarts.init(document.getElementById('purightboxmidd'));
+    option = {
+      tooltip: { show: true },
+      color: ['#7de494', '#7fd7b1', '#5578cf', '#5ebbeb', '#d16ad8', '#f8e19a', '#00b7ee', '#81dabe', '#5fc5ce'],
+      backgroundColor: 'rgba(1,202,217,.2)',
+
+      grid: {
+        left: 30,
+        right: 40,
+        top: 30,
+        bottom: 20,
+        containLabel: true
+      },
+      toolbox: {
+        feature: {
+          saveAsImage: {}
+        }
+      },
+      xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        axisLine: {
+          lineStyle: {
+            color: 'rgba(255,255,255,.2)'
+          }
+        },
+        splitLine: {
+          lineStyle: {
+            color: 'rgba(255,255,255,.1)'
+          }
+        },
+        axisLabel: {
+          color: "rgba(255,255,255,.7)"
+        },
+        data: ['6-08', '6-09', '6-10', '6-11', '6-12', '6-13', '6-14']
+      },
+      yAxis: {
+        type: 'value',
+        axisLine: {
+          lineStyle: {
+            color: 'rgba(255,255,255,.2)'
+          }
+        },
+        splitLine: {
+          lineStyle: {
+            color: 'rgba(255,255,255,.1)'
+          }
+        },
+        axisLabel: {
+          color: "rgba(255,255,255,.7)"
+        },
+      },
+      series: [
+        {
+          name: 'Temp',
+          type: 'line',
+          stack: 'Sum',
+          areaStyle: { normal: {} },
+          data: [120, 132, 101, 134, 90, 230, 210]
+        }
+
+      ]
+    };
+    myChart.setOption(option);
+  </script>
+  <script type="text/javascript">
+    var myChart = echarts.init(document.getElementById('purightboxbott'));
+    option = {
+      tooltip: { show: true },
+      color: ['#00f1fc', '#00b7ee', '#5578cf', '#5ebbeb', '#d16ad8', '#f8e19a', '#00b7ee', '#81dabe', '#5fc5ce'],
+      backgroundColor: 'rgba(1,202,217,.2)',
+      grid: {
+        left: 20,
+        right: 20,
+        top: 0,
+        bottom: 20
+      },
+      legend: {
+        top: 10,
+        textStyle: {
+          fontSize: 10,
+          color: 'rgba(255,255,255,.7)'
+        },
+        data: ['Lower', 'Upper']
+      },
+      series: [
+        {
+          name: 'On-site',
+          type: 'pie',
+          radius: '55%',
+          center: ['50%', '55%'],
+          data: [
+            { value: 505, name: 'Upper' },
+            { value: 310, name: 'Lower' }
+
+          ],
+          itemStyle: {
+            emphasis: {
+              shadowBlur: 10,
+              shadowOffsetX: 0,
+              shadowColor: 'rgba(0, 0, 0, 0.5)'
+            }
+          }
+        }
+      ],
+    };
+    myChart.setOption(option);
+  </script>
+
+
+
+
+
+
+</body>
+
+</html>

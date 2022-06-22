@@ -1,0 +1,469 @@
+{
+	"asset": {
+		"generator": "Unity 2020.3.4f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 279,
+			"max": [ -0.08877953, 0.04954934, 0.009317596 ],
+			"min": [ -0.09421849, 0.04517472, 0.009317596 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 3348,
+			"componentType": 5126,
+			"count": 279,
+			"max": [ 0, 0, 1 ],
+			"min": [ 0, 0, 1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 279,
+			"max": [ -0.1740049, 17.22293 ],
+			"min": [ -21.58726, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 279,
+			"max": [ 1, 0, 0, 1 ],
+			"min": [ 0.9999956, -0.002962585, 0, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 747,
+			"max": [ 278 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 6696,
+			"componentType": 5126,
+			"count": 1209,
+			"max": [ -0.008254861, 0.05997, 1.409576 ],
+			"min": [ -0.1020649, -1.954448E-17, 0.007325096 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 21204,
+			"componentType": 5126,
+			"count": 1209,
+			"max": [ 1, 1, 1 ],
+			"min": [ -1, -1, -1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 2232,
+			"componentType": 5126,
+			"count": 1209,
+			"max": [ 5548.853, 5549.513 ],
+			"min": [ -5548.853, -1.032547E-13 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 4464,
+			"componentType": 5126,
+			"count": 1209,
+			"max": [ 1, 0, 1, 1 ],
+			"min": [ -1, 0, -1, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 1494,
+			"componentType": 5123,
+			"count": 792,
+			"max": [ 477 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 3078,
+			"componentType": 5123,
+			"count": 303,
+			"max": [ 658 ],
+			"min": [ 478 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 3684,
+			"componentType": 5123,
+			"count": 666,
+			"max": [ 1022 ],
+			"min": [ 659 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 5016,
+			"componentType": 5123,
+			"count": 255,
+			"max": [ 1118 ],
+			"min": [ 1023 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 5526,
+			"componentType": 5123,
+			"count": 24,
+			"max": [ 1132 ],
+			"min": [ 1119 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 5574,
+			"componentType": 5123,
+			"count": 201,
+			"max": [ 1203 ],
+			"min": [ 1133 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 5976,
+			"componentType": 5123,
+			"count": 9,
+			"max": [ 1208 ],
+			"min": [ 1204 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 77418,
+			"uri": "tunnel.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 5994,
+			"target": 34963,
+			"byteOffset": 71424
+		},
+		{
+			"buffer": 0,
+			"byteLength": 11904,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 35712,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 11904
+		},
+		{
+			"buffer": 0,
+			"byteLength": 23808,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 47616
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/red_wall.jpg"
+		},
+		{
+			"uri": "Assets/white_wall.jpg"
+		},
+		{
+			"uri": "Assets/roof.jpg"
+		},
+		{
+			"uri": "Assets/concret_floor.jpg"
+		},
+		{
+			"uri": "Assets/Granite_Dark_Gray.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "FrontColor"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "red_wall"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 1,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "white_wall"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 2,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "roof"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 3,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "concret_floor"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 4,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Granite_Dark_Gray"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.3714419, 0.7667645, 0.9592555, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "bluebg"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_Mesh1_14982Mesh1",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "mesh_Mesh2_14980Mesh2",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 5,
+						"NORMAL": 6,
+						"TEXCOORD_0": 7,
+						"TANGENT": 8
+					},
+					"indices": 9,
+					"material": 1,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 5,
+						"NORMAL": 6,
+						"TEXCOORD_0": 7,
+						"TANGENT": 8
+					},
+					"indices": 10,
+					"material": 2,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 5,
+						"NORMAL": 6,
+						"TEXCOORD_0": 7,
+						"TANGENT": 8
+					},
+					"indices": 11,
+					"material": 0,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 5,
+						"NORMAL": 6,
+						"TEXCOORD_0": 7,
+						"TANGENT": 8
+					},
+					"indices": 12,
+					"material": 3,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 5,
+						"NORMAL": 6,
+						"TEXCOORD_0": 7,
+						"TANGENT": 8
+					},
+					"indices": 13,
+					"material": 4,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 5,
+						"NORMAL": 6,
+						"TEXCOORD_0": 7,
+						"TANGENT": 8
+					},
+					"indices": 14,
+					"material": 5,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 5,
+						"NORMAL": 6,
+						"TEXCOORD_0": 7,
+						"TANGENT": 8
+					},
+					"indices": 15,
+					"material": 6,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "tunnel",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_tunnel_-1194",
+			"children": [
+				2,
+				4
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.2243385, -7.791, 7.593, 1]
+		},
+		{
+			"name": "node________1_-1198",
+			"children": [
+				3
+			]
+		},
+		{
+			"name": "node_Mesh1_-1202",
+			"mesh": 0
+		},
+		{
+			"name": "node_Mesh2_-1210",
+			"mesh": 1,
+			"translation": [ 0.755, 0.482, -0.0421]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"sampler": 0,
+			"source": 4
+		}
+	]
+}
